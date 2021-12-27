@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\gtest\src\gtest-all.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\CCompilerTest.c">
+      <Filter>UnitTests\Compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\Version.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utIOSystem.cpp">
+      <Filter>UnitTests\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utIOStreamBuffer.cpp">
+      <Filter>UnitTests\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utIssues.cpp">
+      <Filter>UnitTests\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utAnim.cpp">
+      <Filter>UnitTests\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\AssimpAPITest.cpp">
+      <Filter>UnitTests\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utBatchLoader.cpp">
+      <Filter>UnitTests\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utDefaultIOStream.cpp">
+      <Filter>UnitTests\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utFastAtof.cpp">
+      <Filter>UnitTests\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utMetadata.cpp">
+      <Filter>UnitTests\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\SceneDiffer.cpp">
+      <Filter>UnitTests\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\AbstractImportExportBase.cpp">
+      <Filter>UnitTests\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utTypes.cpp">
+      <Filter>UnitTests\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utVersion.cpp">
+      <Filter>UnitTests\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utProfiler.cpp">
+      <Filter>UnitTests\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utSharedPPData.cpp">
+      <Filter>UnitTests\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utStringUtils.cpp">
+      <Filter>UnitTests\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utLWSImportExport.cpp">
+      <Filter>UnitTests\Importers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utSMDImportExport.cpp">
+      <Filter>UnitTests\Importers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utglTFImportExport.cpp">
+      <Filter>UnitTests\Importers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utglTF2ImportExport.cpp">
+      <Filter>UnitTests\Importers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utHMPImportExport.cpp">
+      <Filter>UnitTests\Importers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utIFCImportExport.cpp">
+      <Filter>UnitTests\Importers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utFBXImporterExporter.cpp">
+      <Filter>UnitTests\Importers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utImporter.cpp">
+      <Filter>UnitTests\Importers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\ut3DImportExport.cpp">
+      <Filter>UnitTests\Importers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\ut3DSImportExport.cpp">
+      <Filter>UnitTests\Importers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utACImportExport.cpp">
+      <Filter>UnitTests\Importers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utAMFImportExport.cpp">
+      <Filter>UnitTests\Importers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utASEImportExport.cpp">
+      <Filter>UnitTests\Importers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utD3MFImportExport.cpp">
+      <Filter>UnitTests\Importers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utQ3DImportExport.cpp">
+      <Filter>UnitTests\Importers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utSTLImportExport.cpp">
+      <Filter>UnitTests\Importers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utXImporterExporter.cpp">
+      <Filter>UnitTests\Importers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utX3DImportExport.cpp">
+      <Filter>UnitTests\Importers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utDXFImporterExporter.cpp">
+      <Filter>UnitTests\Importers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utPMXImporter.cpp">
+      <Filter>UnitTests\Importers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utPLYImportExport.cpp">
+      <Filter>UnitTests\Importers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utObjImportExport.cpp">
+      <Filter>UnitTests\Importers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utObjTools.cpp">
+      <Filter>UnitTests\Importers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utOpenGEXImportExport.cpp">
+      <Filter>UnitTests\Importers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utSIBImporter.cpp">
+      <Filter>UnitTests\Importers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utBlenderIntermediate.cpp">
+      <Filter>UnitTests\Importers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utBlendImportAreaLight.cpp">
+      <Filter>UnitTests\Importers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utBlenderImportExport.cpp">
+      <Filter>UnitTests\Importers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utBlendImportMaterials.cpp">
+      <Filter>UnitTests\Importers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utBVHImportExport.cpp">
+      <Filter>UnitTests\Importers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utColladaExportCamera.cpp">
+      <Filter>UnitTests\Importers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utColladaExportLight.cpp">
+      <Filter>UnitTests\Importers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utColladaImportExport.cpp">
+      <Filter>UnitTests\Importers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utCSMImportExport.cpp">
+      <Filter>UnitTests\Importers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utB3DImportExport.cpp">
+      <Filter>UnitTests\Importers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utMaterialSystem.cpp">
+      <Filter>UnitTests\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utMatrix3x3.cpp">
+      <Filter>UnitTests\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utMatrix4x4.cpp">
+      <Filter>UnitTests\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utVector3.cpp">
+      <Filter>UnitTests\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utImproveCacheLocality.cpp">
+      <Filter>UnitTests\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utFixInfacingNormals.cpp">
+      <Filter>UnitTests\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utGenNormals.cpp">
+      <Filter>UnitTests\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utTriangulate.cpp">
+      <Filter>UnitTests\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utTextureTransform.cpp">
+      <Filter>UnitTests\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utRemoveRedundantMaterials.cpp">
+      <Filter>UnitTests\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utRemoveVCProcess.cpp">
+      <Filter>UnitTests\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utScaleProcess.cpp">
+      <Filter>UnitTests\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utJoinVertices.cpp">
+      <Filter>UnitTests\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utRemoveComments.cpp">
+      <Filter>UnitTests\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utRemoveComponent.cpp">
+      <Filter>UnitTests\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utVertexTriangleAdjacency.cpp">
+      <Filter>UnitTests\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utSplitLargeMeshes.cpp">
+      <Filter>UnitTests\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utFindDegenerates.cpp">
+      <Filter>UnitTests\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utFindInvalidData.cpp">
+      <Filter>UnitTests\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utLimitBoneWeights.cpp">
+      <Filter>UnitTests\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utPretransformVertices.cpp">
+      <Filter>UnitTests\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utScenePreprocessor.cpp">
+      <Filter>UnitTests\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utTargetAnimation.cpp">
+      <Filter>UnitTests\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utSortByPType.cpp">
+      <Filter>UnitTests\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\utSceneCombiner.cpp">
+      <Filter>UnitTests\PostProcess</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\SceneDiffer.h">
+      <Filter>UnitTests\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\UTLogStream.h">
+      <Filter>UnitTests\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\TestIOSystem.h">
+      <Filter>UnitTests\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\unit\TestModelFactory.h">
+      <Filter>UnitTests\Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\test\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{46E64898-5650-3800-AD92-FCCC2A71E97B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnitTests">
+      <UniqueIdentifier>{794681A2-BABC-39AD-B04E-02AD280D870E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnitTests\Common">
+      <UniqueIdentifier>{F8B4D359-1799-392C-90CD-B3576936F95C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnitTests\Compiler">
+      <UniqueIdentifier>{1980B58D-2B01-30CC-A4D9-4D6586D78789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnitTests\Importers">
+      <UniqueIdentifier>{8FC6332B-094C-3515-AAEB-15C221BF388A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnitTests\Material">
+      <UniqueIdentifier>{B878A76E-CB5F-3D68-B92C-E5BAB7F92D51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnitTests\Math">
+      <UniqueIdentifier>{1483B721-8D95-367D-AA31-2C9BB2C46E73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnitTests\PostProcess">
+      <UniqueIdentifier>{FC40DFF4-52F5-32F5-855D-7CC7CAEF0516}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

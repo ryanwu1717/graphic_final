@@ -1,0 +1,387 @@
+﻿  Building Custom Rule C:/Users/LAB/Documents/ryan/finalproject/finalproject/assimp/code/CMakeLists.txt
+  Assimp.cpp
+  BaseImporter.cpp
+  BaseProcess.cpp
+  PostStepRegistry.cpp
+  ImporterRegistry.cpp
+  DefaultIOStream.cpp
+  DefaultIOSystem.cpp
+  CInterfaceIOWrapper.cpp
+  Importer.cpp
+  SGSpatialSort.cpp
+  VertexTriangleAdjacency.cpp
+  SpatialSort.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\Assimp.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\Importer.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\SGSpatialSort.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\CInterfaceIOWrapper.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\PostStepRegistry.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\DefaultIOStream.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\SpatialSort.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\BaseImporter.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\VertexTriangleAdjacency.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ImporterRegistry.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\BaseProcess.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\DefaultIOSystem.cpp)
+  SceneCombiner.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\SceneCombiner.cpp)
+  ScenePreprocessor.cpp
+  SkeletonMeshBuilder.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp/defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ScenePreprocessor.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\SkeletonMeshBuilder.cpp)
+  SplitByBoneCountProcess.cpp
+  ScaleProcess.cpp
+  StandardShapes.cpp
+  TargetAnimation.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\TargetAnimation.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\StandardShapes.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ScaleProcess.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\SplitByBoneCountProcess.cpp)
+  RemoveComments.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp/defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\RemoveComments.cpp)
+  Subdivision.cpp
+  scene.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\Subdivision.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\scene.cpp)
+  Bitmap.cpp
+  Version.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\Bitmap.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\Version.cpp)
+  CreateAnimMesh.cpp
+  DefaultLogger.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\CreateAnimMesh.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\DefaultLogger.cpp)
+  Exporter.cpp
+  AssimpCExport.cpp
+  CalcTangentsProcess.cpp
+  ComputeUVMappingProcess.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\Exporter.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\AssimpCExport.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ComputeUVMappingProcess.cpp)
+  ConvertToLHProcess.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ConvertToLHProcess.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\CalcTangentsProcess.cpp)
+  FindDegenerates.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FindDegenerates.cpp)
+  FindInstancesProcess.cpp
+  FindInvalidDataProcess.cpp
+  FixNormalsStep.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FindInstancesProcess.cpp)
+  GenFaceNormalsProcess.cpp
+  GenVertexNormalsProcess.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FindInvalidDataProcess.cpp)
+  PretransformVertices.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FixNormalsStep.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\GenFaceNormalsProcess.cpp)
+  ImproveCacheLocality.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\GenVertexNormalsProcess.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\PretransformVertices.cpp)
+  JoinVerticesProcess.cpp
+  LimitBoneWeightsProcess.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ImproveCacheLocality.cpp)
+  RemoveRedundantMaterials.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\JoinVerticesProcess.cpp)
+  RemoveVCProcess.cpp
+  SortByPTypeProcess.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\LimitBoneWeightsProcess.cpp)
+  SplitLargeMeshes.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\SortByPTypeProcess.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\RemoveRedundantMaterials.cpp)
+  TextureTransform.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\TextureTransform.cpp)
+  TriangulateProcess.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\RemoveVCProcess.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\SplitLargeMeshes.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\TriangulateProcess.cpp)
+  ValidateDataStructure.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ValidateDataStructure.cpp)
+  OptimizeGraph.cpp
+  OptimizeMeshes.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\OptimizeGraph.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\OptimizeMeshes.cpp)
+  DeboneProcess.cpp
+  ProcessHelper.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\DeboneProcess.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ProcessHelper.cpp)
+  MakeVerboseFormat.cpp
+  MaterialSystem.cpp
+  StepExporter.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\StepExporter.cpp)
+  AMFImporter.cpp
+  AMFImporter_Geometry.cpp
+  AMFImporter_Material.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\MakeVerboseFormat.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp/defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\MaterialSystem.cpp)
+  AMFImporter_Postprocess.cpp
+  3DSConverter.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\AMFImporter.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\AMFImporter_Geometry.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\AMFImporter_Material.cpp)
+  3DSLoader.cpp
+  3DSExporter.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\AMFImporter_Postprocess.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\3DSConverter.cpp)
+  ACLoader.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\3DSLoader.cpp)
+  ASELoader.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\3DSExporter.cpp)
+  ASEParser.cpp
+  AssbinExporter.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ACLoader.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\AssbinExporter.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ASELoader.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ASEParser.cpp)
+  AssbinLoader.cpp
+  AssxmlExporter.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\AssxmlExporter.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\AssbinLoader.cpp)
+  B3DImporter.cpp
+  BVHLoader.cpp
+  ColladaLoader.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\B3DImporter.cpp)
+  ColladaParser.cpp
+  ColladaExporter.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ColladaExporter.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ColladaLoader.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\BVHLoader.cpp)
+  DXFLoader.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\DXFLoader.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ColladaParser.cpp)
+  CSMLoader.cpp
+  HMPLoader.cpp
+  IRRMeshLoader.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\CSMLoader.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\HMPLoader.cpp)
+  IRRShared.cpp
+  IRRLoader.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\IRRShared.cpp)
+  LWOAnimation.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\IRRLoader.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\IRRMeshLoader.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\LWOAnimation.cpp)
+  LWOBLoader.cpp
+  LWOLoader.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\LWOBLoader.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\LWOLoader.cpp)
+  LWOMaterial.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\LWOMaterial.cpp)
+  LWSLoader.cpp
+  MD2Loader.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\LWSLoader.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\MD2Loader.cpp)
+  MD3Loader.cpp
+  MD5Loader.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp/defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\MD5Loader.cpp)
+  MD5Parser.cpp
+  MDCLoader.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\MDCLoader.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\MD3Loader.cpp)
+  MDLLoader.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\MD5Parser.cpp)
+  MDLMaterialLoader.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\MDLLoader.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\MDLMaterialLoader.cpp)
+  NFFLoader.cpp
+  NDOLoader.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\NFFLoader.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\NDOLoader.cpp)
+  OFFLoader.cpp
+  ObjFileImporter.cpp
+  ObjFileMtlImporter.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\OFFLoader.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ObjFileImporter.cpp)
+  ObjFileParser.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp/defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ObjFileMtlImporter.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ObjFileParser.cpp)
+  ObjExporter.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ObjExporter.cpp)
+  OgreImporter.cpp
+  OgreStructs.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\OgreImporter.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\OgreStructs.cpp)
+  OgreBinarySerializer.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\OgreBinarySerializer.cpp)
+  OgreXmlSerializer.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\OgreXmlSerializer.cpp)
+  OgreMaterial.cpp
+  OpenGEXExporter.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\OpenGEXExporter.cpp)
+  OpenGEXImporter.cpp
+  PlyLoader.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\OgreMaterial.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\OpenGEXImporter.cpp)
+  PlyParser.cpp
+  PlyExporter.cpp
+  MS3DLoader.cpp
+  COBLoader.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\PlyLoader.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp/defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\PlyParser.cpp)
+  BlenderLoader.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\MS3DLoader.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\COBLoader.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\PlyExporter.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\BlenderLoader.cpp)
+  BlenderDNA.cpp
+  BlenderScene.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\BlenderDNA.cpp)
+  BlenderModifier.cpp
+  BlenderBMesh.cpp
+  BlenderTessellator.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\BlenderScene.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\BlenderBMesh.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\BlenderModifier.cpp)
+  IFCLoader.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\BlenderTessellator.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\IFCLoader.cpp)
+  IFCUtil.cpp
+  IFCGeometry.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\IFCUtil.cpp)
+  IFCMaterial.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\IFCGeometry.cpp)
+  IFCProfile.cpp
+  IFCCurve.cpp
+  IFCBoolean.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\IFCMaterial.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\IFCBoolean.cpp(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  IFCOpenings.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\IFCProfile.cpp)
+  STEPFileReader.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\IFCCurve.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\IFCBoolean.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\IFCOpenings.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\STEPFileReader.cpp)
+  STEPFileEncoding.cpp
+  XGLLoader.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp/defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\STEPFileEncoding.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\XGLLoader.cpp)
+  FBXImporter.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FBXImporter.cpp)
+  FBXParser.cpp
+  FBXTokenizer.cpp
+  FBXConverter.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp/defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FBXTokenizer.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FBXParser.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FBXConverter.cpp)
+  FBXUtil.cpp
+  FBXDocument.cpp
+  FBXProperties.cpp
+  FBXMeshGeometry.cpp
+  FBXMaterial.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FBXDocument.cpp)
+  FBXModel.cpp
+  FBXAnimation.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FBXProperties.cpp)
+  FBXNodeAttribute.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FBXMaterial.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FBXMeshGeometry.cpp)
+  FBXDeformer.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FBXModel.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FBXAnimation.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FBXNodeAttribute.cpp)
+  FBXBinaryTokenizer.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp/defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FBXBinaryTokenizer.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FBXDeformer.cpp)
+  FBXDocumentUtil.cpp
+  Q3DLoader.cpp
+  Q3BSPFileParser.cpp
+  Q3BSPFileImporter.cpp
+  Q3BSPZipArchive.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\Q3BSPZipArchive.cpp)
+  RawLoader.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\Q3BSPFileParser.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FBXDocumentUtil.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\Q3DLoader.cpp)
+  SIBImporter.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\Q3BSPFileImporter.cpp)
+  SMDLoader.cpp
+  STLLoader.cpp
+  STLExporter.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\RawLoader.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\SIBImporter.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\SMDLoader.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\STLLoader.cpp)
+  TerragenLoader.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\STLExporter.cpp)
+  UnrealLoader.cpp
+  XFileImporter.cpp
+  XFileParser.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\TerragenLoader.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\XFileImporter.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\UnrealLoader.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\XFileParser.cpp)
+  XFileExporter.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\XFileExporter.cpp)
+  X3DExporter.cpp
+  X3DImporter.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\X3DExporter.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\X3DImporter.cpp)
+  X3DImporter_Geometry2D.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\X3DImporter_Geometry2D.cpp)
+  X3DImporter_Geometry3D.cpp
+  X3DImporter_Group.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\X3DImporter_Geometry3D.cpp)
+  X3DImporter_Light.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\X3DImporter_Group.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\X3DImporter_Light.cpp)
+  X3DImporter_Metadata.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\X3DImporter_Metadata.cpp)
+  X3DImporter_Networking.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\X3DImporter_Networking.cpp)
+  X3DImporter_Postprocess.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\X3DImporter_Postprocess.cpp)
+  X3DImporter_Rendering.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\X3DImporter_Rendering.cpp)
+  X3DImporter_Shape.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\X3DImporter_Shape.cpp)
+  X3DImporter_Texturing.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\X3DImporter_Texturing.cpp)
+  FIReader.cpp
+  X3DVocabulary.cpp
+  glTFImporter.cpp
+  glTFExporter.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\glTFExporter.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\glTFImporter.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FIReader.cpp)
+  glTF2Importer.cpp
+  glTF2Exporter.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\glTF2Exporter.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\glTF2Importer.cpp)
+  D3MFImporter.cpp
+  D3MFExporter.cpp
+  D3MFOpcPackage.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\D3MFImporter.cpp)
+  MMDImporter.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\D3MFOpcPackage.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\D3MFExporter.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\MMDImporter.cpp)
+  MMDPmxParser.cpp
+  shapes.cc
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\MMDPmxParser.cpp(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  advancing_front.cc
+  cdt.cc
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\MMDPmxParser.cpp)
+  sweep.cc
+  sweep_context.cc
+  clipper.cpp
+  OpenDDLParser.cpp
+  DDLNode.cpp
+  OpenDDLCommon.cpp
+  OpenDDLExport.cpp
+  Value.cpp
+  OpenDDLStream.cpp
+  o3dgcArithmeticCodec.cpp
+  o3dgcDynamicVectorDecoder.cpp
+  o3dgcDynamicVectorEncoder.cpp
+  o3dgcTools.cpp
+  o3dgcTriangleFans.cpp
+  IFCReaderGen1.cpp
+  IFCReaderGen2.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\IFCReaderGen2.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\IFCReaderGen1.cpp)
+  ioapi.c
+  unzip.c
+  zip.c
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\zip\src\miniz.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\zip\src\zip.c)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\zip\src\miniz.h(4430): warning C4700: 使用了未初始化的區域變數 'level'
+     正在建立程式庫 C:/Users/LAB/Documents/ryan/finalproject/finalproject/assimp/build/code/Release/assimp-vc140-mt.lib 和物件 C:/Users/LAB/Documents/ryan/finalproject/finalproject/assimp/build/code/Release/assimp-vc140-mt.exp
+  assimp.vcxproj -> C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build\code\Release\assimp-vc140-mt.dll

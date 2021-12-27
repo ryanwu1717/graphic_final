@@ -29,26 +29,26 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -72,6 +72,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>C:\Users\LAB\Documents\ryan\finalproject\finalproject\glfw-3.3.6.bin.WIN32\include;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\LAB\Documents\ryan\finalproject\finalproject;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -90,13 +92,13 @@
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
-      <AdditionalIncludeDirectories>C:\Users\user\Desktop\finalproject\finalproject\glfw-3.3.6.bin.WIN32\include;C:\Users\user\Desktop\finalproject\finalproject\glew\include;C:\Users\user\Desktop\finalproject\finalproject\stb\include;C:\Users\user\Desktop\finalproject\finalproject\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\LAB\Documents\ryan\finalproject\finalproject\IL\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\glad\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\glew\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\glfw-3.3.6.bin.WIN32\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\stb\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\user\Desktop\finalproject\finalproject\glew\lib\Release\Win32;C:\Users\user\Desktop\finalproject\finalproject\glfw-3.3.6.bin.WIN32\lib-vc2019;C:\Users\user\Desktop\finalproject\finalproject\glad\include;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>opengl32.lib;glfw3.lib;glew32s.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\LAB\Documents\ryan\finalproject\finalproject\IL\lib;C:\Users\LAB\Documents\ryan\finalproject\finalproject\glew\lib\Release\Win32;C:\Users\LAB\Documents\ryan\finalproject\finalproject\glfw-3.3.6.bin.WIN32\lib-vc2022;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glfw3.lib;glew32.lib;glfw3dll.lib;ILU.lib;ILUT.lib;DevIL.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -159,13 +161,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="glad\src\glad.c" />
     <ClCompile Include="imageloader.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="cube.h" />
     <ClInclude Include="glut.h" />
+    <ClInclude Include="mycamera.h" />
+    <ClInclude Include="scene.h" />
+    <ClInclude Include="shader.h" />
+    <ClInclude Include="mesh.h" />
+    <ClInclude Include="model.h" />
     <ClInclude Include="imageloader.h" />
     <ClInclude Include="loadTGA.h" />
+    <ClInclude Include="skybox.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

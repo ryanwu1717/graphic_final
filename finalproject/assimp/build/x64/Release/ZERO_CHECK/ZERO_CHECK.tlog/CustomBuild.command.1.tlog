@@ -1,0 +1,10 @@
+^C:\USERS\LAB\DOCUMENTS\RYAN\FINALPROJECT\FINALPROJECT\ASSIMP\BUILD\CMAKEFILES\F1358E1244D966B7476F9481B683C8B4\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/LAB/Documents/ryan/finalproject/finalproject/assimp -BC:/Users/LAB/Documents/ryan/finalproject/finalproject/assimp/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/LAB/Documents/ryan/finalproject/finalproject/assimp/build/Assimp.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

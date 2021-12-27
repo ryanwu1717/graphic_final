@@ -1,0 +1,14 @@
+﻿  Building Custom Rule C:/Users/LAB/Documents/ryan/finalproject/finalproject/assimp/tools/assimp_cmd/CMakeLists.txt
+  CompareDump.cpp
+  ImageExtractor.cpp
+  Main.cpp
+  WriteDumb.cpp
+  Info.cpp
+  Export.cpp
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\tools\assimp_cmd\Info.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\tools\assimp_cmd\ImageExtractor.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\tools\assimp_cmd\Main.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\tools\assimp_cmd\CompareDump.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\tools\assimp_cmd\WriteDumb.cpp)
+C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失 (正在編譯原始程式檔 C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\tools\assimp_cmd\Export.cpp)
+  assimp_cmd.vcxproj -> C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build\tools\assimp_cmd\Release\assimp.exe

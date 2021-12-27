@@ -1,0 +1,848 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E7D50536-DB29-386C-99FB-B6504DCCCD12}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>assimp</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build\code\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">assimp.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">assimp-vc140-mt</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build\code\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">assimp.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">assimp-vc140-mt</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build\code\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">assimp.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">assimp-vc140-mt</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build\code\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">assimp.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">assimp-vc140-mt</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\.;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\zlib;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build\contrib\zlib;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..\contrib\rapidjson\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..\contrib;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..\contrib\unzip;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\irrXML;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..\contrib\openddlparser\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;WIN32_LEAN_AND_MEAN;OPENDDL_NO_USE_CPP11;ASSIMP_BUILD_NO_C4D_IMPORTER;ASSIMP_IMPORTER_GLTF_USE_OPEN3DGC=1;ASSIMP_BUILD_DLL_EXPORT;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;OPENDDLPARSER_BUILD;CMAKE_INTDIR="Debug";assimp_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;WIN32_LEAN_AND_MEAN;OPENDDL_NO_USE_CPP11;ASSIMP_BUILD_NO_C4D_IMPORTER;ASSIMP_IMPORTER_GLTF_USE_OPEN3DGC=1;ASSIMP_BUILD_DLL_EXPORT;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;OPENDDLPARSER_BUILD;CMAKE_INTDIR=\"Debug\";assimp_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\.;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\zlib;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build\contrib\zlib;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..\contrib\rapidjson\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..\contrib;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..\contrib\unzip;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\irrXML;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..\contrib\openddlparser\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\.;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\zlib;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build\contrib\zlib;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..\contrib\rapidjson\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..\contrib;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..\contrib\unzip;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\irrXML;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..\contrib\openddlparser\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\contrib\zlib\Debug\zlibstaticd.lib;..\contrib\irrXML\Debug\IrrXML.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/LAB/Documents/ryan/finalproject/finalproject/assimp/build/code/Debug/assimp-vc140-mt.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/LAB/Documents/ryan/finalproject/finalproject/assimp/build/code/Debug/assimp-vc140-mt.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\.;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\zlib;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build\contrib\zlib;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..\contrib\rapidjson\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..\contrib;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..\contrib\unzip;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\irrXML;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..\contrib\openddlparser\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;OPENDDL_NO_USE_CPP11;ASSIMP_BUILD_NO_C4D_IMPORTER;ASSIMP_IMPORTER_GLTF_USE_OPEN3DGC=1;ASSIMP_BUILD_DLL_EXPORT;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;OPENDDLPARSER_BUILD;CMAKE_INTDIR="Release";assimp_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;OPENDDL_NO_USE_CPP11;ASSIMP_BUILD_NO_C4D_IMPORTER;ASSIMP_IMPORTER_GLTF_USE_OPEN3DGC=1;ASSIMP_BUILD_DLL_EXPORT;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;OPENDDLPARSER_BUILD;CMAKE_INTDIR=\"Release\";assimp_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\.;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\zlib;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build\contrib\zlib;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..\contrib\rapidjson\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..\contrib;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..\contrib\unzip;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\irrXML;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..\contrib\openddlparser\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\.;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\zlib;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build\contrib\zlib;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..\contrib\rapidjson\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..\contrib;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..\contrib\unzip;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\irrXML;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..\contrib\openddlparser\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\contrib\zlib\Release\zlibstatic.lib;..\contrib\irrXML\Release\IrrXML.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/LAB/Documents/ryan/finalproject/finalproject/assimp/build/code/Release/assimp-vc140-mt.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/LAB/Documents/ryan/finalproject/finalproject/assimp/build/code/Release/assimp-vc140-mt.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\.;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\zlib;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build\contrib\zlib;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..\contrib\rapidjson\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..\contrib;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..\contrib\unzip;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\irrXML;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..\contrib\openddlparser\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;OPENDDL_NO_USE_CPP11;ASSIMP_BUILD_NO_C4D_IMPORTER;ASSIMP_IMPORTER_GLTF_USE_OPEN3DGC=1;ASSIMP_BUILD_DLL_EXPORT;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;OPENDDLPARSER_BUILD;CMAKE_INTDIR="MinSizeRel";assimp_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;OPENDDL_NO_USE_CPP11;ASSIMP_BUILD_NO_C4D_IMPORTER;ASSIMP_IMPORTER_GLTF_USE_OPEN3DGC=1;ASSIMP_BUILD_DLL_EXPORT;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;OPENDDLPARSER_BUILD;CMAKE_INTDIR=\"MinSizeRel\";assimp_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\.;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\zlib;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build\contrib\zlib;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..\contrib\rapidjson\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..\contrib;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..\contrib\unzip;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\irrXML;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..\contrib\openddlparser\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\.;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\zlib;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build\contrib\zlib;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..\contrib\rapidjson\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..\contrib;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..\contrib\unzip;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\irrXML;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..\contrib\openddlparser\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\contrib\zlib\MinSizeRel\zlibstatic.lib;..\contrib\irrXML\MinSizeRel\IrrXML.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/LAB/Documents/ryan/finalproject/finalproject/assimp/build/code/MinSizeRel/assimp-vc140-mt.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/LAB/Documents/ryan/finalproject/finalproject/assimp/build/code/MinSizeRel/assimp-vc140-mt.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\.;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\zlib;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build\contrib\zlib;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..\contrib\rapidjson\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..\contrib;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..\contrib\unzip;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\irrXML;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..\contrib\openddlparser\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;OPENDDL_NO_USE_CPP11;ASSIMP_BUILD_NO_C4D_IMPORTER;ASSIMP_IMPORTER_GLTF_USE_OPEN3DGC=1;ASSIMP_BUILD_DLL_EXPORT;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;OPENDDLPARSER_BUILD;CMAKE_INTDIR="RelWithDebInfo";assimp_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;OPENDDL_NO_USE_CPP11;ASSIMP_BUILD_NO_C4D_IMPORTER;ASSIMP_IMPORTER_GLTF_USE_OPEN3DGC=1;ASSIMP_BUILD_DLL_EXPORT;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;OPENDDLPARSER_BUILD;CMAKE_INTDIR=\"RelWithDebInfo\";assimp_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\.;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\zlib;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build\contrib\zlib;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..\contrib\rapidjson\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..\contrib;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..\contrib\unzip;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\irrXML;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..\contrib\openddlparser\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\.;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\zlib;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build\contrib\zlib;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..\contrib\rapidjson\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..\contrib;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..\contrib\unzip;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\irrXML;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..\contrib\openddlparser\include;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\contrib\zlib\RelWithDebInfo\zlibstatic.lib;..\contrib\irrXML\RelWithDebInfo\IrrXML.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/LAB/Documents/ryan/finalproject/finalproject/assimp/build/code/RelWithDebInfo/assimp-vc140-mt.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/LAB/Documents/ryan/finalproject/finalproject/assimp/build/code/RelWithDebInfo/assimp-vc140-mt.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/LAB/Documents/ryan/finalproject/finalproject/assimp/code/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/LAB/Documents/ryan/finalproject/finalproject/assimp -BC:/Users/LAB/Documents/ryan/finalproject/finalproject/assimp/build --check-stamp-file C:/Users/LAB/Documents/ryan/finalproject/finalproject/assimp/build/code/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\cmake-modules\FindRT.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build\code\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/LAB/Documents/ryan/finalproject/finalproject/assimp/code/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/LAB/Documents/ryan/finalproject/finalproject/assimp -BC:/Users/LAB/Documents/ryan/finalproject/finalproject/assimp/build --check-stamp-file C:/Users/LAB/Documents/ryan/finalproject/finalproject/assimp/build/code/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\cmake-modules\FindRT.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build\code\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/LAB/Documents/ryan/finalproject/finalproject/assimp/code/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/LAB/Documents/ryan/finalproject/finalproject/assimp -BC:/Users/LAB/Documents/ryan/finalproject/finalproject/assimp/build --check-stamp-file C:/Users/LAB/Documents/ryan/finalproject/finalproject/assimp/build/code/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\cmake-modules\FindRT.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build\code\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/LAB/Documents/ryan/finalproject/finalproject/assimp/code/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/LAB/Documents/ryan/finalproject/finalproject/assimp -BC:/Users/LAB/Documents/ryan/finalproject/finalproject/assimp/build --check-stamp-file C:/Users/LAB/Documents/ryan/finalproject/finalproject/assimp/build/code/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\cmake-modules\FindRT.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build\code\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\Assimp.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\fast_atof.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\qnan.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\BaseImporter.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\BaseImporter.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\BaseProcess.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\BaseProcess.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\Importer.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ScenePrivate.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\PostStepRegistry.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ImporterRegistry.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ByteSwapper.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\DefaultProgressHandler.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\DefaultIOStream.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\DefaultIOSystem.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\CInterfaceIOWrapper.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\CInterfaceIOWrapper.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\Hash.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\Importer.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\IFF.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\MemoryIOWrapper.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ParsingUtils.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\StreamReader.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\StreamWriter.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\StringComparison.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\StringUtils.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\SGSpatialSort.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\SGSpatialSort.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\VertexTriangleAdjacency.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\VertexTriangleAdjacency.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\GenericProperty.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\SpatialSort.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\SpatialSort.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\SceneCombiner.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ScenePreprocessor.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ScenePreprocessor.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\SkeletonMeshBuilder.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\SkeletonMeshBuilder.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\SplitByBoneCountProcess.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\SplitByBoneCountProcess.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ScaleProcess.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ScaleProcess.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\SmoothingGroups.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\StandardShapes.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\StandardShapes.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\TargetAnimation.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\TargetAnimation.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\RemoveComments.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\RemoveComments.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\Subdivision.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\Subdivision.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\scene.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\Vertex.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\LineSplitter.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\TinyFormatter.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\Profiler.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\LogAux.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\Bitmap.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\Bitmap.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\XMLTools.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\Version.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\IOStreamBuffer.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\CreateAnimMesh.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\CreateAnimMesh.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\DefaultLogger.hpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\LogStream.hpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\Logger.hpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\NullLogger.hpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\Win32DebugLogStream.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\DefaultLogger.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FileLogStream.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\StdOStreamLogStream.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\Exporter.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\AssimpCExport.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\BlobIOSystem.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\CalcTangentsProcess.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\CalcTangentsProcess.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ComputeUVMappingProcess.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ComputeUVMappingProcess.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ConvertToLHProcess.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ConvertToLHProcess.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FindDegenerates.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FindDegenerates.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FindInstancesProcess.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FindInstancesProcess.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FindInvalidDataProcess.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FindInvalidDataProcess.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FixNormalsStep.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FixNormalsStep.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\GenFaceNormalsProcess.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\GenFaceNormalsProcess.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\GenVertexNormalsProcess.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\GenVertexNormalsProcess.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\PretransformVertices.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\PretransformVertices.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ImproveCacheLocality.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ImproveCacheLocality.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\JoinVerticesProcess.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\JoinVerticesProcess.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\LimitBoneWeightsProcess.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\LimitBoneWeightsProcess.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\RemoveRedundantMaterials.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\RemoveRedundantMaterials.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\RemoveVCProcess.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\RemoveVCProcess.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\SortByPTypeProcess.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\SortByPTypeProcess.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\SplitLargeMeshes.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\SplitLargeMeshes.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\TextureTransform.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\TextureTransform.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\TriangulateProcess.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\TriangulateProcess.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ValidateDataStructure.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ValidateDataStructure.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\OptimizeGraph.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\OptimizeGraph.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\OptimizeMeshes.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\OptimizeMeshes.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\DeboneProcess.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\DeboneProcess.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ProcessHelper.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ProcessHelper.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\PolyTools.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\MakeVerboseFormat.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\MakeVerboseFormat.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\MaterialSystem.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\MaterialSystem.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\StepExporter.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\StepExporter.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\AMFImporter.hpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\AMFImporter_Macro.hpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\AMFImporter_Node.hpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\AMFImporter.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\AMFImporter_Geometry.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\AMFImporter_Material.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\AMFImporter_Postprocess.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\3DSConverter.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\3DSHelper.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\3DSLoader.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\3DSLoader.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\3DSExporter.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\3DSExporter.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ACLoader.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ACLoader.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ASELoader.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ASELoader.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ASEParser.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ASEParser.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\AssbinExporter.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\AssbinExporter.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\AssbinLoader.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\AssbinLoader.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\AssxmlExporter.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\AssxmlExporter.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\B3DImporter.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\B3DImporter.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\BVHLoader.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\BVHLoader.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ColladaHelper.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ColladaLoader.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ColladaLoader.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ColladaParser.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ColladaParser.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ColladaExporter.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ColladaExporter.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\DXFLoader.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\DXFLoader.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\DXFHelper.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\CSMLoader.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\CSMLoader.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\HMPFileData.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\HMPLoader.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\HMPLoader.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\HalfLifeFileData.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\IRRMeshLoader.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\IRRMeshLoader.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\IRRShared.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\IRRShared.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\IRRLoader.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\IRRLoader.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\LWOAnimation.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\LWOAnimation.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\LWOBLoader.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\LWOFileData.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\LWOLoader.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\LWOLoader.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\LWOMaterial.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\LWSLoader.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\LWSLoader.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\MD2FileData.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\MD2Loader.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\MD2Loader.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\MD2NormalTable.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\MD3FileData.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\MD3Loader.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\MD3Loader.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\MD5Loader.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\MD5Loader.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\MD5Parser.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\MD5Parser.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\MDCFileData.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\MDCLoader.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\MDCLoader.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\MDCNormalTable.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\MDLDefaultColorMap.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\MDLFileData.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\MDLLoader.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\MDLLoader.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\MDLMaterialLoader.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\NFFLoader.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\NFFLoader.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\NDOLoader.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\NDOLoader.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\OFFLoader.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\OFFLoader.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ObjFileData.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ObjFileImporter.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ObjFileImporter.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ObjFileMtlImporter.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ObjFileMtlImporter.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ObjFileParser.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ObjFileParser.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ObjTools.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ObjExporter.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\ObjExporter.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\OgreImporter.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\OgreStructs.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\OgreParsingUtils.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\OgreBinarySerializer.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\OgreXmlSerializer.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\OgreImporter.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\OgreStructs.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\OgreBinarySerializer.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\OgreXmlSerializer.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\OgreMaterial.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\OpenGEXExporter.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\OpenGEXExporter.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\OpenGEXImporter.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\OpenGEXImporter.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\OpenGEXStructs.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\PlyLoader.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\PlyLoader.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\PlyParser.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\PlyParser.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\PlyExporter.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\PlyExporter.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\MS3DLoader.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\MS3DLoader.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\COBLoader.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\COBLoader.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\COBScene.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\BlenderLoader.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\BlenderLoader.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\BlenderDNA.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\BlenderDNA.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\BlenderDNA.inl" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\BlenderScene.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\BlenderScene.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\BlenderSceneGen.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\BlenderIntermediate.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\BlenderModifier.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\BlenderModifier.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\BlenderBMesh.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\BlenderBMesh.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\BlenderTessellator.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\BlenderTessellator.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\IFCLoader.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\IFCLoader.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\IFCReaderGen1.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /bigobj</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\IFCReaderGen2.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /bigobj</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\IFCReaderGen.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\IFCUtil.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\IFCUtil.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\IFCGeometry.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\IFCMaterial.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\IFCProfile.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\IFCCurve.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\IFCBoolean.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\IFCOpenings.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\STEPFile.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\STEPFileReader.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\STEPFileReader.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\STEPFileEncoding.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\STEPFileEncoding.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\XGLLoader.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\XGLLoader.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FBXImporter.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FBXCompileConfig.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FBXImporter.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FBXParser.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FBXParser.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FBXTokenizer.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FBXTokenizer.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FBXImportSettings.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FBXConverter.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FBXConverter.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FBXUtil.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FBXUtil.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FBXDocument.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FBXDocument.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FBXProperties.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FBXProperties.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FBXMeshGeometry.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FBXMeshGeometry.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FBXMaterial.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FBXModel.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FBXAnimation.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FBXNodeAttribute.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FBXDeformer.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FBXBinaryTokenizer.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FBXDocumentUtil.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\Q3DLoader.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\Q3DLoader.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\Q3BSPFileData.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\Q3BSPFileParser.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\Q3BSPFileParser.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\Q3BSPFileImporter.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\Q3BSPFileImporter.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\Q3BSPZipArchive.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\Q3BSPZipArchive.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\RawLoader.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\RawLoader.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\SIBImporter.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\SIBImporter.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\SMDLoader.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\SMDLoader.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\STLLoader.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\STLLoader.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\STLExporter.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\STLExporter.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\TerragenLoader.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\TerragenLoader.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\UnrealLoader.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\UnrealLoader.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\XFileHelper.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\XFileImporter.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\XFileImporter.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\XFileParser.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\XFileParser.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\XFileExporter.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\XFileExporter.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\X3DExporter.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\X3DExporter.hpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\X3DImporter.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\X3DImporter.hpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\X3DImporter_Geometry2D.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\X3DImporter_Geometry3D.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\X3DImporter_Group.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\X3DImporter_Light.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\X3DImporter_Macro.hpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\X3DImporter_Metadata.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\X3DImporter_Networking.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\X3DImporter_Node.hpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\X3DImporter_Postprocess.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\X3DImporter_Rendering.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\X3DImporter_Shape.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\X3DImporter_Texturing.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FIReader.hpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\FIReader.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\X3DVocabulary.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\glTFAsset.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\glTFAsset.inl" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\glTFAssetWriter.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\glTFAssetWriter.inl" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\glTFImporter.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\glTFImporter.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\glTFExporter.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\glTFExporter.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\glTF2Asset.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\glTF2Asset.inl" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\glTF2AssetWriter.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\glTF2AssetWriter.inl" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\glTF2Importer.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\glTF2Importer.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\glTF2Exporter.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\glTF2Exporter.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\D3MFImporter.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\D3MFImporter.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\D3MFExporter.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\D3MFExporter.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\D3MFOpcPackage.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\D3MFOpcPackage.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\3MFXmlTags.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\MMDCpp14.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\MMDImporter.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\MMDImporter.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\MMDPmdParser.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\MMDPmxParser.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\MMDPmxParser.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\MMDVmdParser.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\code\irrXMLWrapper.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\unzip\crypt.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\unzip\ioapi.c" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\unzip\ioapi.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\unzip\unzip.c" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\unzip\unzip.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\poly2tri\poly2tri\common\shapes.cc" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\poly2tri\poly2tri\common\shapes.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\poly2tri\poly2tri\common\utils.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\poly2tri\poly2tri\sweep\advancing_front.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\poly2tri\poly2tri\sweep\advancing_front.cc" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\poly2tri\poly2tri\sweep\cdt.cc" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\poly2tri\poly2tri\sweep\cdt.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\poly2tri\poly2tri\sweep\sweep.cc" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\poly2tri\poly2tri\sweep\sweep.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.cc" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\clipper\clipper.hpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\clipper\clipper.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\openddlparser\code\OpenDDLParser.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\openddlparser\code\DDLNode.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\openddlparser\code\OpenDDLCommon.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\openddlparser\code\OpenDDLExport.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\openddlparser\code\Value.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\openddlparser\code\OpenDDLStream.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\openddlparser\include\openddlparser\OpenDDLParser.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\openddlparser\include\openddlparser\OpenDDLParserUtils.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\openddlparser\include\openddlparser\OpenDDLCommon.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\openddlparser\include\openddlparser\OpenDDLExport.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\openddlparser\include\openddlparser\OpenDDLStream.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\openddlparser\include\openddlparser\DDLNode.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\openddlparser\include\openddlparser\Value.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\Open3DGC\o3dgcAdjacencyInfo.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\Open3DGC\o3dgcArithmeticCodec.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\Open3DGC\o3dgcArithmeticCodec.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\Open3DGC\o3dgcBinaryStream.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\Open3DGC\o3dgcCommon.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\Open3DGC\o3dgcDVEncodeParams.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\Open3DGC\o3dgcDynamicVectorDecoder.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\Open3DGC\o3dgcDynamicVectorDecoder.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\Open3DGC\o3dgcDynamicVectorEncoder.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\Open3DGC\o3dgcDynamicVectorEncoder.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\Open3DGC\o3dgcDynamicVector.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\Open3DGC\o3dgcFIFO.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\Open3DGC\o3dgcIndexedFaceSet.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\Open3DGC\o3dgcIndexedFaceSet.inl" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\Open3DGC\o3dgcSC3DMCDecoder.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\Open3DGC\o3dgcSC3DMCDecoder.inl" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\Open3DGC\o3dgcSC3DMCEncodeParams.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\Open3DGC\o3dgcSC3DMCEncoder.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\Open3DGC\o3dgcSC3DMCEncoder.inl" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\Open3DGC\o3dgcTimer.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\Open3DGC\o3dgcTools.cpp" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\Open3DGC\o3dgcTriangleFans.cpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\Open3DGC\o3dgcTriangleFans.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\Open3DGC\o3dgcTriangleListDecoder.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\Open3DGC\o3dgcTriangleListDecoder.inl" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\Open3DGC\o3dgcTriangleListEncoder.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\Open3DGC\o3dgcTriangleListEncoder.inl" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\Open3DGC\o3dgcVector.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\Open3DGC\o3dgcVector.inl" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\zip\src\miniz.h" />
+    <ClCompile Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\zip\src\zip.c" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\contrib\zip\src\zip.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\anim.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\ai_assert.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\camera.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\color4.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\color4.inl" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build\include\assimp\config.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\defs.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\Defines.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\cfileio.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\light.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\material.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\material.inl" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\matrix3x3.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\matrix3x3.inl" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\matrix4x4.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\matrix4x4.inl" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\mesh.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\postprocess.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\quaternion.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\quaternion.inl" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\scene.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\metadata.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\texture.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\types.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\vector2.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\vector2.inl" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\vector3.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\vector3.inl" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\version.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\cimport.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\importerdesc.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\Importer.hpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\ProgressHandler.hpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\IOStream.hpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\IOSystem.hpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\cexport.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\Exporter.hpp" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\DefaultIOStream.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\DefaultIOSystem.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\SceneCombiner.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\Compiler\pushpack1.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\Compiler\poppack1.h" />
+    <ClInclude Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\include\assimp\Compiler\pstdint.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build\ZERO_CHECK.vcxproj">
+      <Project>{54CDAEAA-DDA6-3FAF-911A-72B9F5939DDB}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build\contrib\irrXML\IrrXML.vcxproj">
+      <Project>{E72F2F4D-F04F-3A2E-A4BC-EA54AA84FC95}</Project>
+      <Name>IrrXML</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\LAB\Documents\ryan\finalproject\finalproject\assimp\build\contrib\zlib\zlibstatic.vcxproj">
+      <Project>{EB07AEDC-2ECF-387F-B194-8A3EDF37990A}</Project>
+      <Name>zlibstatic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
