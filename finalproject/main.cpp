@@ -4557,13 +4557,27 @@ int main(int argc, char** argv)
     glutDisplayFunc(display);
 
     //glutDisplayFunc(drawScene);
-    glutKeyboardFunc(handleKeypress);
-    glutReshapeFunc(handleResize);
-    glutKeyboardFunc(my_keyboard);
-    glutSpecialFunc(spe_key);
-    glutMouseFunc(my_mouse);
-    glutTimerFunc(25, update, 0); //Add a timer
-    glutTimerFunc(25, update5, 0);
+    glutDisplayFunc(display);
+    glutReshapeFunc(reshape);
+    glutKeyboardFunc(keyboard);
+    glutSpecialFunc(specialkey);
+    glutTimerFunc(speed, autoRotation, 0);
+    glutMouseFunc(mouse);
+    
+
+
+    //glutKeyboardFunc(handleKeypress);
+    //glutReshapeFunc(handleResize);
+    //glutKeyboardFunc(my_keyboard);
+   // glutSpecialFunc(spe_key);
+    //glutMouseFunc(my_mouse);
+    //glutTimerFunc(25, update, 0); //Add a timer
+    //glutTimerFunc(25, update5, 0);
     glutMainLoop();
+    delete cubeShader;
+    delete skyboxShader;
+    delete cube;
+    delete skybox;
+    
     return 0;
 }

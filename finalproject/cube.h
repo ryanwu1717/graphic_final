@@ -19,7 +19,7 @@ public:
     Cube(Shader* shader)
     {
         this->shader = shader;
-        this->cubeCenter = glm::vec3(9.0f, -2.0f, 64.0f);
+        this->cubeCenter = glm::vec3(2.0f, 2.0f, 40.0f);
         this->movestep = 2.0f;
         this->scalestep = glm::vec3(1.0f, 1.0f, 1.0f);
         this->cubeScale = glm::vec3(2.0f, 2.0f, 2.0f);

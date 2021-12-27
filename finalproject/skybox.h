@@ -89,12 +89,12 @@ public:
 
     void loadFaces()
     {
-        this->texturesFaces.push_back("./asset/hell/nec_hell/hell_ft.tga");
-        this->texturesFaces.push_back("./asset/hell/nec_hell/hell_bk.tga");
-        this->texturesFaces.push_back("./asset/hell/nec_hell/hell_up.tga");
-        this->texturesFaces.push_back("./asset/hell/nec_hell/hell_dn.tga");
-        this->texturesFaces.push_back("./asset/hell/nec_hell/hell_rt.tga");
-        this->texturesFaces.push_back("./asset/hell/nec_hell/hell_lf.tga");
+        this->texturesFaces.push_back("./asset/skybox/skycube_tga/skyrender0001.tga");
+        this->texturesFaces.push_back("./asset/skybox/skycube_tga/skyrender0002.tga");
+        this->texturesFaces.push_back("./asset/skybox/skycube_tga/skyrender0003.tga");
+        this->texturesFaces.push_back("./asset/skybox/skycube_tga/skyrender0004.tga");
+        this->texturesFaces.push_back("./asset/skybox/skycube_tga/skyrender0005.tga");
+        this->texturesFaces.push_back("./asset/skybox/skycube_tga/skyrender0006.tga");
     }
 
     void Draw(Shader shader)
