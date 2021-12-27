@@ -1,0 +1,27 @@
+﻿  imageloader.cpp
+  main.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': 巨集重複定義
+C:\Users\user\Desktop\finalproject\finalproject\glfw-3.3.6.bin.WIN32\include\GLFW\glfw3.h(123): message : 請參閱 'APIENTRY' 之前的定義
+  正在產生程式碼...
+C:\Users\user\Desktop\finalproject\finalproject\loadTGA.h(78): warning C4715: 'loadTGA': 不是所有控制路徑都傳回值
+main.obj : error LNK2019: 在函式 __imp___glutInitWithExitglutInit_ATEXIT_HACK 中參考了無法解析的外部符號
+main.obj : error LNK2019: 在函式 __imp_glutInitDisplayModemain 中參考了無法解析的外部符號
+main.obj : error LNK2019: 在函式 __imp_glutInitWindowPositionmain 中參考了無法解析的外部符號
+main.obj : error LNK2019: 在函式 __imp_glutInitWindowSizemain 中參考了無法解析的外部符號
+main.obj : error LNK2019: 在函式 __imp_glutMainLoopmain 中參考了無法解析的外部符號
+main.obj : error LNK2019: 在函式 __imp___glutCreateWindowWithExitglutCreateWindow_ATEXIT_HACK 中參考了無法解析的外部符號
+main.obj : error LNK2019: 在函式 __imp_glutPostRedisplay"void __cdecl handleKeypress(unsigned char,int,int)" (?handleKeypress@@YAXEHH@Z) 中參考了無法解析的外部符號
+main.obj : error LNK2019: 在函式 __imp_glutSwapBuffers"void __cdecl display(void)" (?display@@YAXXZ) 中參考了無法解析的外部符號
+main.obj : error LNK2019: 在函式 __imp_glutDisplayFuncmain 中參考了無法解析的外部符號
+main.obj : error LNK2019: 在函式 __imp_glutReshapeFuncmain 中參考了無法解析的外部符號
+main.obj : error LNK2019: 在函式 __imp_glutKeyboardFuncmain 中參考了無法解析的外部符號
+main.obj : error LNK2019: 在函式 __imp_glutMouseFuncmain 中參考了無法解析的外部符號
+main.obj : error LNK2019: 在函式 __imp_glutTimerFunc"void __cdecl my_mouse(int,int,int,int)" (?my_mouse@@YAXHHHH@Z) 中參考了無法解析的外部符號
+main.obj : error LNK2019: 在函式 __imp_glutSpecialFuncmain 中參考了無法解析的外部符號
+main.obj : error LNK2019: 在函式 __imp_glutSolidSphere"void __cdecl drawBall(void)" (?drawBall@@YAXXZ) 中參考了無法解析的外部符號
+main.obj : error LNK2019: 在函式 stbi_load"unsigned int __cdecl loadCubemap(class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >)" (?loadCubemap@@YAIV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@@Z) 中參考了無法解析的外部符號
+main.obj : error LNK2019: 在函式 stbi_image_free"unsigned int __cdecl loadCubemap(class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >)" (?loadCubemap@@YAIV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@@Z) 中參考了無法解析的外部符號
+C:\Users\user\Desktop\finalproject\finalproject\glfw-3.3.6.bin.WIN32\lib-vc2019\glfw3.lib : warning LNK4272: 程式庫電腦類型 'x86' 與目標電腦類型 'x64' 發生衝突
+C:\Users\user\Desktop\finalproject\finalproject\glew\lib\Release\Win32\glew32s.lib : warning LNK4272: 程式庫電腦類型 'x86' 與目標電腦類型 'x64' 發生衝突
+glut32.lib : warning LNK4272: 程式庫電腦類型 'x86' 與目標電腦類型 'x64' 發生衝突
+C:\Users\user\Desktop\finalproject\x64\Debug\finalproject.exe : fatal error LNK1120: 17 個無法解析的外部符號
